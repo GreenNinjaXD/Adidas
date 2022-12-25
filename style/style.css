@@ -1,0 +1,245 @@
+@import './fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px
+}
+
+.nav_item_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav_item_list_link a {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 30px 10px;
+    transition: 0.3s;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.nav_item_list_link a:hover {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 2px;
+}
+
+input {
+    padding: 8px 12px;
+    padding-right: 47px;
+    border-radius: 10px 0 0 10px;
+    background: #FFF;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.search {
+    background: #000;
+    padding: 8px 17px;
+    border-radius: 0px 10px 10px 0px;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+}
+
+/* nav */
+
+/* main */
+
+.main_content {
+    background: url(../img/mainbg.png)center center / cover;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'RSB';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main_btn {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.content_box_item {
+    background: #181D28;
+    width: 100%;
+    max-height: 244px;
+    transition: 0.5s;
+}
+
+.content_box_img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+    padding-top: 20px;
+}
+
+.content_box_text {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'RSB';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.content_box_item:hover {
+    background: #6B4B6B;
+}
+
+.content_box {
+    display: flex;
+}
+
+/* main */
+
+/* section */
+
+.section_title {
+    font-family: 'RSB';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.section_text {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+/* section */
+
+/* main img */
+
+.main_img_add img {
+    width: 100%;
+    margin-top: 22px;
+}
+
+/* main img */
+
+/* section ul */
+
+.section_ul_title {
+    font-family: 'RSB';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.item_content_link a {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.pb {
+    padding-bottom: 14px;
+}
+
+.section_ul_item {
+    display: flex;
+    justify-content: space-between;
+    max-height: 50px;
+    margin-bottom: 40px;
+}
+
+/* section ul */
+
+/* footer */
+
+.footer_nav {
+    background: #181D28;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
+}
+
+.footer_nav_list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer_nav_list_link a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* footer */
